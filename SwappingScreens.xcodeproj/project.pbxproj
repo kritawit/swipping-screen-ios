@@ -13,6 +13,7 @@
 		1D552FC11E33CFE300E45173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D552FC01E33CFE300E45173 /* Assets.xcassets */; };
 		1D552FC41E33CFE300E45173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D552FC21E33CFE300E45173 /* LaunchScreen.storyboard */; };
 		1D552FCC1E33D0D000E45173 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D552FCB1E33D0D000E45173 /* MusicListVC.swift */; };
+		1D760B961E34805D00F4247F /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D760B951E34805D00F4247F /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1D552FC31E33CFE300E45173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D552FC51E33CFE300E45173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D552FCB1E33D0D000E45173 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		1D760B951E34805D00F4247F /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1D552FC21E33CFE300E45173 /* LaunchScreen.storyboard */,
 				1D552FC51E33CFE300E45173 /* Info.plist */,
 				1D552FCB1E33D0D000E45173 /* MusicListVC.swift */,
+				1D760B951E34805D00F4247F /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D552FCC1E33D0D000E45173 /* MusicListVC.swift in Sources */,
+				1D760B961E34805D00F4247F /* PlaySongVC.swift in Sources */,
 				1D552FBC1E33CFE300E45173 /* LoginVC.swift in Sources */,
 				1D552FBA1E33CFE300E45173 /* AppDelegate.swift in Sources */,
 			);
@@ -306,6 +310,7 @@
 				1D552FCA1E33CFE300E45173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
