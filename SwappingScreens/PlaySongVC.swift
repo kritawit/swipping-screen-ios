@@ -13,6 +13,9 @@ class PlaySongVC: UIViewController {
     @IBOutlet weak var songTitlelbl: UILabel!
 
     private var _selectedSong:String!
+        
+    var  selectedSongArr = [String]()
+
     
     var selectedSong :String{
         get{
@@ -27,7 +30,7 @@ class PlaySongVC: UIViewController {
         
         songTitlelbl.text = _selectedSong
         
-        print("DidLoad")
+        print(selectedSongArr)
  
     }
 

@@ -23,8 +23,11 @@ class MusicListVC: UIViewController {
     
     @IBAction func load3rdScreenPressed(_ sender: Any) {
         
-        let songTitle = "Quit Playing Games With My Heart"
-        performSegue(withIdentifier: "PlaySongVC", sender: songTitle)
+//        let songTitle = "Quit Playing Games With My Heart"
+        
+        let strArr:[String] = ["Kritawit","Fonthip","Test Name"]
+        
+        performSegue(withIdentifier: "PlaySongVC", sender: strArr)
         
     }
     
@@ -32,10 +35,10 @@ class MusicListVC: UIViewController {
         
         if  let description = segue.destination as? PlaySongVC {
             
-            print("PlaySongVC")
+         
             
-            if let song = sender as? String {
-                description.selectedSong = song
+            if let song = sender as? [String] {
+                description.selectedSongArr = song
             }
             
         }
